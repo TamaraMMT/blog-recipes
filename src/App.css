@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container {
+  min-height:  60vh;
+  margin-bottom: 5em;
+}
+
+
+.hello {
+  color: #000;
+  font-size: 1.1rem;
+  line-height: 0.5rem;
+  transition: .25s;
+  cursor: pointer;
+  padding:100px
+
+}
+
+
+.hello:hover {
+  color: #5c5c5c;
+  text-decoration: none;
+
+}
+
+
