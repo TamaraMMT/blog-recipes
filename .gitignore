@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Firebase
+firebase.json
+firebase-debug.log
+firebase.log
+firebase.rc
+
+# Cloud Function dependencies
+functions/node_modules
+functions/npm-debug.log
+
+# Firebase Hosting
+public/firebase.json
+public/firebase-debug.log
+public/firebase.log
+public/firebase.rc
+
+# Firebase Emulator Suite
+.firebase
+.emulator
+
+# Firebase Security Rules
+firestore.rules
+database.rules.json
+
+# Firebase Performance Monitoring
+service-account-credentials.json
+
+# Firebase Test Lab
+test-lab-*.xml
+
+# Firebase Realtime Database
+firestore.rules
+firebase-export.json
+
+# Firebase Cloud Firestore
+firestore.rules
+firestore.indexes.json
+
+# Firebase Cloud Storage
+firebase-storage-rules-test.json
+
+# Firebase Auth
+/.config
+
+# Firebase local server
+.firesbaserc
+.firebaserc
+
+# Firebase service account key file (json)
+serviceAccountKey.json
+
+
+
+firebase-debug.log*
+firebase-error.log*
+src/firebase**
