@@ -1,12 +1,16 @@
-#root {
-
-  text-align: center;
-}
 
 
 .container {
-  min-height:  60vh;
+  min-height:  70vh;
   margin-bottom: 5em;
+  text-align: center;
+  display: block;
+}
+
+.load {
+  margin: 10em;
+  text-align: center;
+  display: block;
 }
 
 

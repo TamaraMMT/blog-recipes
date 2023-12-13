@@ -1,5 +1,11 @@
+#nav {
+  padding: 0.1em 1em;
+}
+
+
 .navbar {
   display: flex;
+  background-color:  rgb(242, 227, 200);
   justify-content: space-between;
   align-items: center;
   padding: 0.5em 2em;
@@ -29,6 +35,12 @@
 
 .links_list .active {
   border-radius: 8px;
-  background-color: #fcddb5;
+  background-color: #cbbdaa50;
+  padding: 12px;
   color: #f57c36;
+}
+
+
+.links_list .active:hover {
+  color: #9c6032;
 }
