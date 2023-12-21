@@ -5,7 +5,7 @@ body {
 
 :root {
   font-family: system-ui,  Arial, sans-serif;
-  background-color: rgb(245, 236, 220);
+  background-color: rgb(255, 255, 255);
   font-weight: 400;
 }
 
@@ -14,13 +14,14 @@ a {
   color: #fe7f1e;
   transition: .4s;
   text-decoration: inherit;
+  margin: 0px 5px;
 }
 a:hover {
   color: #9c6032;
 }
 
 
-input {
+input, textarea {
   border: none;
   border-radius: 5px;
 }
@@ -46,8 +47,8 @@ label {
   margin-bottom: 1.1em;
 }
 
-  
-label input {
+label input,
+label textarea {
   margin-bottom: 0.3em;
   text-align: left;
   font-weight: 200;
@@ -58,7 +59,7 @@ label span {
   text-align: left;
   font-weight: 500;
   font-size: 0.8em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif,sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input,
@@ -67,7 +68,7 @@ textarea {
   border-bottom: 1px solid #9c9c9c;
   border-right: 1px solid #9c9c9c;
   padding: 0.5em 0.5em;
-  background-color:  rgb(255, 246, 230);
+  background-color:  rgb(255, 255, 255);
 }
 
 input::placeholder,
@@ -82,11 +83,11 @@ textarea::placeholder {
   text-align: center;
   cursor: pointer;
   border-radius: 10px;
-  width: 120px;
+  width: auto;
   font-weight: bold;
   border: none;
-  padding: 10px 15px;
-  font-size: 1em;
+  padding: 8px;
+  font-size: 0.9em;
 }
 
 .btn.btn-dark {
@@ -116,7 +117,7 @@ textarea::placeholder {
 }
 
 button[disabled] {
-  background-color: #aaa;
+  background-color: #f30a0a;
 }
 
 .container .error {

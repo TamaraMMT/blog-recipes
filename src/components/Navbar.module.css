@@ -5,7 +5,7 @@
 
 .navbar {
   display: flex;
-  background-color:  rgb(242, 227, 200);
+  background-color:  rgb(255, 255, 255);
   justify-content: space-between;
   align-items: center;
   padding: 0.5em 2em;
@@ -34,7 +34,6 @@
 }
 
 .links_list .active {
-  border-radius: 8px;
   background-color: #cbbdaa50;
   padding: 12px;
   color: #f57c36;
@@ -43,4 +42,24 @@
 
 .links_list .active:hover {
   color: #9c6032;
+}
+
+
+.btn_logout {
+  background-color: #9c6032;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 90px;
+  font-weight: bold;
+  border: none;
+  padding: 7px 7px;
+
+
+}
+
+.btn_logout:hover {
+  background-color: #96500a;
+  color: #fff;
 }
