@@ -1,4 +1,7 @@
 import { useAuthentication } from "../../hooks/useAuthentication";
+
+import { Link } from "react-router-dom";
+
 import styles from "./Register.module.css";
 
 import { useState, useEffect } from "react";
@@ -61,7 +64,7 @@ const Register = () => {
             type="email"
             name="email"
             required
-            placeholder="Your email"
+            placeholder="Your email (e.g., john@example.com)"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -96,6 +99,10 @@ const Register = () => {
         )}
         {error && <p className="error">{error}</p>}
       </form>
+      <p>
+        Already have an account?
+        <Link to="/login">{"Sign in."}</Link>
+      </p>
     </div>
   );
 };
