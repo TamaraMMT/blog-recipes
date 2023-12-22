@@ -1,0 +1,35 @@
+.post_detail {
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 4em;
+}
+
+.post_detail img {
+  max-width: 100%;
+}
+
+.post_detail h2 {
+  margin-bottom: 0.2em;
+  text-transform:capitalize;
+}
+
+.post_detail .tags {
+  margin-bottom: 0.2em;
+  display: flex;
+}
+
+.tags p {
+  margin-right: 0.5em;
+  align-items: left;
+}
+
+.tags span {
+  font-weight: bold;
+}
+
+.post_detail .createdby {
+  font-size: 0.8em;
+}
